@@ -18,10 +18,8 @@
         <button type="submit" onclick="doDiv(); return false">Divide</button>        
 
     </form>
-    <h2 id="result1"></h2>
-    <h2 id="result2"></h2>
-    <h2 id="result3"></h2>
-    <h2 id="result4"></h2>
+    <h2 id="result"></h2>
+    
 
     <script>
         function doSum() {
@@ -39,7 +37,7 @@
             let result1 = num1 + num2;
 
             console.log("result: ",result1);
-            document.querySelector("#result1").innerHTML = result1;
+            document.querySelector("#result").innerHTML = result1;
 
         }
         function doSub() {
@@ -57,7 +55,7 @@
             let result2 = num1 - num2;
 
             console.log("result: ",result2);
-            document.querySelector("#result2").innerHTML = result2;
+            document.querySelector("#result").innerHTML = result2;
 
         }
         function doMul() {
@@ -75,7 +73,7 @@
             let result3 = num1 * num2;
 
             console.log("result: ",result3);
-            document.querySelector("#result3").innerHTML = result3;
+            document.querySelector("#result").innerHTML = result3;
 
         }
         function doDiv() {
@@ -93,7 +91,7 @@
             let result4 = num1 / num2;
 
             console.log("result: ",result4);
-            document.querySelector("#result4").innerHTML = result4;
+            document.querySelector("#result").innerHTML = result4;
 
         }
         
